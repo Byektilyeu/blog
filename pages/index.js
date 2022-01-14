@@ -18,7 +18,7 @@ export default function Home() {
       <div className="blog-detail-page">
         <Row>
           <Col md="8">
-            {/* <Media className="mb-4 admin-intro">
+            <Media className="mb-4 admin-intro">
               <Image
                 roundedCircle
                 width={64}
@@ -37,7 +37,7 @@ export default function Home() {
                   сонирхолтой мэдээллүүдийг энэхүү блогоор хүргэж байна.
                 </p>
               </Media.Body>
-            </Media> */}
+            </Media>
           </Col>
         </Row>
 
