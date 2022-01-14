@@ -1,4 +1,13 @@
-import { Container, Row, Col, Media, Image, Card } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Navbar,
+  Nav,
+  Media,
+  Image,
+  Card,
+} from "react-bootstrap";
 
 import MyNavbar from "../components/my-navbar";
 
@@ -9,7 +18,7 @@ export default function Home() {
       <div className="blog-detail-page">
         <Row>
           <Col md="8">
-            <Media className="mb-4 admin-intro">
+            {/* <Media className="mb-4 admin-intro">
               <Image
                 roundedCircle
                 width={64}
@@ -18,6 +27,7 @@ export default function Home() {
                 src="logo.jpg"
                 alt="Generic placeholder"
               />
+
               <Media.Body>
                 <h5 className="font-weight-bold mb-0">
                   1234.mn - Онлайн видео сургалт
@@ -27,7 +37,7 @@ export default function Home() {
                   сонирхолтой мэдээллүүдийг энэхүү блогоор хүргэж байна.
                 </p>
               </Media.Body>
-            </Media>
+            </Media> */}
           </Col>
         </Row>
 
